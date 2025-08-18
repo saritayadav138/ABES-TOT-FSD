@@ -1,0 +1,11 @@
+.box
+{ box-sizing: border-box;
+    background-color: aqua;
+    height: 400px;
+    width: 400px;
+    border: 1px solid green;
+    margin: 40px 30px 20px;
+    padding:  10px 20px 30px 40px;
+
+
+}
