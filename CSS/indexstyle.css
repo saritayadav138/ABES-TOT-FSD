@@ -1,0 +1,49 @@
+/* *
+{
+    background-color:red ;
+}
+h1{
+    background-color: black;
+}
+p
+{
+background-color: antiquewhite;
+color: aquamarine;
+}
+#p1
+{
+    background-color: blue;
+    color: blueviolet;
+}
+.paragraph
+{
+    background-color: beige;
+    color: brown;
+} */
+
+
+div>p
+{
+    background-color: aqua;
+    color: antiquewhite;
+}
+div+p
+{
+    background-color: aqua;
+    color: antiquewhite;
+}
+/* p:hover{
+    font-size: xx-large;
+    background-color: brown;
+    color: white;
+} */
+ p::before
+ {
+    content: "welcome",to ABES Engineering college;
+ }
+ p::after
+ {
+    background-color: aqua;
+ }
+ p::selection
+ {background-color:red}
