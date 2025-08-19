@@ -13,6 +13,10 @@
     width: 150px;
     border: 1px dotted blue;
     background-color: bisque;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
 
 }
 .box2
