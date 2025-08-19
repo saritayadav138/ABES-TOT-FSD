@@ -8,6 +8,8 @@
     margin: 50px;
     flex-direction:row;
     flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
 }
 .box1
 {height: 150px;
@@ -40,7 +42,7 @@
     background-color:blueviolet;
 
 }
-.box5
+/* .box5
 {height: 150px;
     width: 150px;
     border: 1px dotted blue;
@@ -70,4 +72,4 @@
     border: 1px dotted blue;
     background-color:blueviolet;
 
-}
+} */
