@@ -1,78 +1,76 @@
 .container
 {
     display: grid;
-    height: 600px;
-    width: 800px;
+    height: 1000px;
+    width: 1000px;
     border: 1px solid red;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
     
+    
 }
 .box1
-{height: 150px;
-    width: 150px;
+{height: auto;
+    width: auto;
     border: 1px dotted blue;
     background-color: bisque;
-    /* grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 3; */
+    
 
 }
 .box2
-{height: 150px;
-    width: 150px;
+{height: auto;
+    width:auto;
     border: 1px dotted blue;
     background-color: pink;
 display: grid;
 grid-template-columns: repeat(2,1fr);
 grid-template-rows: repeat(2,1fr);
-    
+
 }
 .box21
-{height: 150px;
-    width: 150px;
+{height: 50px;
+    width: 50px;
     border: 1px dotted blue;
     background-color: pink;
 
     
 }
 .box22
-{height: 150px;
-    width: 150px;
+{height: 50px;
+    width: 50px;
     border: 1px dotted blue;
     background-color: pink;
 
     
 }
 .box23
-{height: 150px;
-    width: 150px;
+{height: 50px;
+    width: 50px;
     border: 1px dotted blue;
     background-color: pink;
 
     
 }
 .box24
-{height: 150px;
-    width: 150px;
+{height: 50px;
+    width: 50px;
     border: 1px dotted blue;
     background-color: pink;
 
     
 }
 .box3
-{height: 150px;
-    width: 150px;
+{height: auto;
+    width: auto;
     border: 1px dotted blue;
     background-color: grey;
-
+   
     
 }
 .box4
 {
-    height: 150px;
-    width: 150px;
+    height:auto;
+    width: auto;
     border: 1px dotted blue;
     background-color:blueviolet;
 
