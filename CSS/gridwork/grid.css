@@ -1,0 +1,40 @@
+.container
+{
+    display: grid;
+    height: 600px;
+    width: 800px;
+    border: 1px solid red;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+.box1
+{height: 150px;
+    width: 150px;
+    border: 1px dotted blue;
+    background-color: bisque;
+
+}
+.box2
+{height: 150px;
+    width: 150px;
+    border: 1px dotted blue;
+    background-color: pink;
+
+    
+}
+.box3
+{height: 150px;
+    width: 150px;
+    border: 1px dotted blue;
+    background-color: grey;
+
+    
+}
+.box4
+{
+    height: 150px;
+    width: 150px;
+    border: 1px dotted blue;
+    background-color:blueviolet;
+
+}
