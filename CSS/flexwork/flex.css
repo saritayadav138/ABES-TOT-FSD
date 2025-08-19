@@ -7,3 +7,34 @@
     background-color: aqua;
     margin: 50px;
 }
+.box1
+{height: 150px;
+    width: 200px;
+    border: 1px dotted blue;
+    background-color: bisque;
+
+}
+.box2
+{height: 150px;
+    width: 200px;
+    border: 1px dotted blue;
+    background-color: pink;
+
+    
+}
+.box3
+{height: 150px;
+    width: 200px;
+    border: 1px dotted blue;
+    background-color: grey;
+
+    
+}
+.box4
+{
+    height: 150px;
+    width: 200px;
+    border: 1px dotted blue;
+    background-color:blueviolet;
+
+}
