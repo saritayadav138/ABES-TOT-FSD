@@ -10,6 +10,8 @@
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
 }
 .box1
 {height: 150px;
