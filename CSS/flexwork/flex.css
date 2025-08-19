@@ -6,17 +6,19 @@
     width: 800px;
     background-color: aqua;
     margin: 50px;
+    flex-direction:row;
+    flex-wrap: wrap;
 }
 .box1
 {height: 150px;
-    width: 200px;
+    width: 150px;
     border: 1px dotted blue;
     background-color: bisque;
 
 }
 .box2
 {height: 150px;
-    width: 200px;
+    width: 150px;
     border: 1px dotted blue;
     background-color: pink;
 
@@ -24,7 +26,7 @@
 }
 .box3
 {height: 150px;
-    width: 200px;
+    width: 150px;
     border: 1px dotted blue;
     background-color: grey;
 
@@ -33,7 +35,38 @@
 .box4
 {
     height: 150px;
-    width: 200px;
+    width: 150px;
+    border: 1px dotted blue;
+    background-color:blueviolet;
+
+}
+.box5
+{height: 150px;
+    width: 150px;
+    border: 1px dotted blue;
+    background-color: bisque;
+
+}
+.box6
+{height: 150px;
+    width: 150px;
+    border: 1px dotted blue;
+    background-color: pink;
+
+    
+}
+.box7
+{height: 150px;
+    width: 150px;
+    border: 1px dotted blue;
+    background-color: grey;
+
+    
+}
+.box8
+{
+    height: 150px;
+    width: 150px;
     border: 1px dotted blue;
     background-color:blueviolet;
 
