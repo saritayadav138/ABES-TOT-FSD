@@ -25,3 +25,12 @@
 // {
 //     console.log("hello");
 // }
+// 
+const sum=(a,b)=>
+{
+    return a+b;
+}
+const add=(a,b)=>a+b;
+
+const val=sum(3,6);
+console.log("the sum is"+val);
