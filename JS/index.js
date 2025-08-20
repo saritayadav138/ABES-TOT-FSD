@@ -26,11 +26,28 @@
 //     console.log("hello");
 // }
 // 
-const sum=(a,b)=>
+// 
+function selectLanguage(lang)
 {
-    return a+b;
+    let data;
+    if(lang=="java")
+    {
+        function javaCompiler()
+        {
+        console.log("java compiler selected and code is being executed");
+        }
+        data=javaCompiler();
+    }
+    else if(lang=="c")
+    {
+        function cCompiler()
+        {
+            console.log("c compiler is bening executed");
+        }
+        data=cCompiler();
+    }
+    else{
+        console.log("selected language is not found");
+    }
 }
-const add=(a,b)=>a+b;
-
-const val=sum(3,6);
-console.log("the sum is"+val);
+selectLanguage("java");
