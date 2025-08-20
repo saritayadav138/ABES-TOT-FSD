@@ -36,7 +36,7 @@ function selectLanguage(lang)
         {
         console.log("java compiler selected and code is being executed");
         }
-        data=javaCompiler();
+        javaCompiler();
     }
     else if(lang=="c")
     {
@@ -44,7 +44,7 @@ function selectLanguage(lang)
         {
             console.log("c compiler is bening executed");
         }
-        data=cCompiler();
+        cCompiler();
     }
     else{
         console.log("selected language is not found");
