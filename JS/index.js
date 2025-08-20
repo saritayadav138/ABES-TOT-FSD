@@ -7,12 +7,10 @@
 
 // a=30;
 // console.log("a="+a)
-let a=12;
-
-if(a>10)
+// 
+function sum(a,b)
 {
-    let a=30;
-    console.log("a="+a);
-
+return a+b;
 }
-console.log("a"+a);
+let val=sum(12,20);
+console.log("the sum is"+val);
