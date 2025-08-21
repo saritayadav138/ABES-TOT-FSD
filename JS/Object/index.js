@@ -9,13 +9,16 @@ const employee={
         lang2:"python"
         },
         {
-        lang1:"java",
-        lang2:"python"
+        database1:"Oracle",
+        database2:"SQL"
         },
         {
-        lang1:"java",
-        lang2:"python"
+        framework1:"java",
+        framework2:"python"
         }
     ]
 }
-console.log(employee);
+employee.company="Infosys";
+console.log(employee.planguage[0].lang2);
+console.log("employee");
+
